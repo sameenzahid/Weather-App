@@ -33,7 +33,30 @@ else if(data.weather[0].main == "Drizzle"){
 else if(data.weather[0].main == "Mist"){
     image.src = "/images/mist.png"
 }
+else if(data.weather[0].main == "Snow"){
+    image.src = "/images/snow.png"
+}
+else if(data.weather[0].main == "Thunderstorm"){
+    image.src = "/images/storm.png"
+}
+else if(data.weather[0].main == "Smoke"){
+    image.src = "/images/smoke.png"
+}
+else if(data.weather[0].main == "Dust"){
+    image.src = "/images/dust.png"
+}
+else if(data.weather[0].main == "Ash"){
+    image.src = "/images/ash.png"
+}
 
+else if(data.weather[0].main == "Tornado"){
+    im
+    age.src = "/images/tornado.png"
+}
+
+else if(data.weather[0].main == "Haze"){
+    image.src = "/images/haze.png"
+}
 }
 
 searchBtn.addEventListener('click', () => {
